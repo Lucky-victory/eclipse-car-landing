@@ -54,7 +54,7 @@ export function SpecsSection({ scrollY }: SpecsSectionProps) {
         className="absolute inset-0 z-0 opacity-20"
         style={{ y: useTransform(scrollY, [1800, 2400], [100, -100]) }}
       >
-        <div className="h-full w-full bg-[url('/gallery-4.png')] bg-repeat opacity-30"></div>
+        <div className="h-full w-full bg-[url('/gallery-1.jpg')] bg-repeat opacity-30"></div>
       </motion.div>
 
       <div className="container mx-auto px-6 z-10 relative">
